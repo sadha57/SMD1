@@ -35,14 +35,18 @@ Setting up
 
 📦 4. Install Required Packages
     npm install --force
+
+    
     npm install
     --force is used to bypass certain warnings or dependency conflicts. It is optional and should be used with care.
 
 🔍 5. Fix Vulnerabilities (Optional)
     npm audit fix
-▶️ 6. Start the Development Server
+▶️ 6. Start the Development Server:
+npm start
 
     npm start
+    
     The app will launch at http://localhost:3000
     Npm begins
 
