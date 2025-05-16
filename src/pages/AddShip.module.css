@@ -1,0 +1,56 @@
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f0f8ff;
+  border: 1px solid #d0e0ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 68, 204, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: #0044cc;
+  margin-bottom: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form input:focus,
+.form select:focus {
+  border-color: #0044cc;
+  outline: none;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #0044cc;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #0033aa;
+}

@@ -1,0 +1,87 @@
+.container {
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6f7ff);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #007acc;
+  color: white;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.viewBtn,
+.editBtn,
+.deleteBtn,
+.addBtn {
+  text-decoration: none;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.viewBtn {
+  background-color: #3498db;
+  color: white;
+}
+
+.viewBtn:hover {
+  background-color: #2980b9;
+}
+
+.editBtn {
+  background-color: #f1c40f;
+  color: white;
+}
+
+.editBtn:hover {
+  background-color: #d4ac0d;
+}
+
+.deleteBtn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.deleteBtn:hover {
+  background-color: #c0392b;
+}
+
+.addBtn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #2ecc71;
+  color: white;
+}
+
+.addBtn:hover {
+  background-color: #27ae60;
+}

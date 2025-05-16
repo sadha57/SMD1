@@ -1,0 +1,66 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  color: #003366;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.form label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  color: #003366;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #a3c0f0;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  background: #ffffff;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.saveBtn {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: #cccccc;
+  color: black;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  color: red;
+  margin-top: 2rem;
+}

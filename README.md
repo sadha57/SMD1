@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+ Objective
+A front-end-only React application, the Ship Maintenance Dashboard replicates an entire ship maintenance system. Role-based access (Admin, Inspector, Engineer) and user authentication are included, and users can oversee ships, their parts, and maintenance tasks. In-app notifications are triggered by actions, and jobs are shown in a calendar view. Key statistics are displayed on a KPI dashboard, and all data is kept in localStorage. The application works flawlessly on all devices. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Core Features:
+Here are the core features of the Ship Maintenance Dashboard
+used localStorage-based session handling to simulate authentication.
+Organize ships by adding, editing, and deleting them.
+Assign and monitor the parts associated with every ship.
+Create maintenance tasks and keep track of them with status updates.
+Use the calendar view to see the planned maintenance.
+alerts for impending and past-due tasks.
+KPI dashboard displaying important data, such as job completion rates.
+localStorage in the browser for persistent data storage.
 
-## Available Scripts
+Tech Stack Tool Objective
 
-In the project directory, you can run:
+ React Router Page routing/navigation
+ Custom CSS localStorage 
+ React UI Framework
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation:
+Setting up
+1.1. Download the Repository
 
-### `npm test`
+📁 2. Navigate into the Project Directory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    cd ship-maintenance-dashboard
+🛠️ 3. Run Terminal as Administrator(optional)
+    Right-click on Command Prompt or PowerShell
 
-### `npm run build`
+    Click “Run as Administrator” (important if script policies block npm)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📦 4. Install Required Packages
+    npm install --force
+    npm install
+    --force is used to bypass certain warnings or dependency conflicts. It is optional and should be used with care.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔍 5. Fix Vulnerabilities (Optional)
+    npm audit fix
+▶️ 6. Start the Development Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm start
+    The app will launch at http://localhost:3000
+    Npm begins
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Usage for this project:
+You must log in using specific credentials for three different roles on the homepage.
+For the admin:
+     email address: admin@entnt.com;
+     password: admin123
+For the Engineer 
+     email address : engineer@entnt.com, 
+     password : engine123.
+For the inspector
+     Email:inspector@entnt.com, 
+     password is inspect123.
+ Depending on their roles, everyone has restricted access.
+ For example, an administrator can create jobs, update jobs, remove jobs, and create ships, as well as perform all operations on the site; 
+ an inspector can view only available ships and their status aslso IMO number,name,flag no,status and he can view ,edit and delete the ships based on data
+ an engineer can view jobs; and an administrator can perform all operations. 
+ Meanwhile, everyone can access the dashboard, which shows the total number of ships, overdue components, jobs in progress, and jobs completed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This React project delivers a simulated Ship Maintenance Dashboard with key features for managing ships, components, and jobs, all while persisting data locally and offering role-based access.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
