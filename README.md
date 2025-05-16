@@ -1,4 +1,9 @@
+<<<<<<< HEAD
  Objective
+=======
+ Objective:
+ 
+>>>>>>> 41f1cb261b861263d1add9c1b193d3371b2b1b13
 A front-end-only React application, the Ship Maintenance Dashboard replicates an entire ship maintenance system. Role-based access (Admin, Inspector, Engineer) and user authentication are included, and users can oversee ships, their parts, and maintenance tasks. In-app notifications are triggered by actions, and jobs are shown in a calendar view. Key statistics are displayed on a KPI dashboard, and all data is kept in localStorage. The application works flawlessly on all devices. 
 
 Core Features:
@@ -22,7 +27,11 @@ Tech Stack Tool Objective
 
 Installation:
 Setting up
+<<<<<<< HEAD
 1.1. Download the Repository
+=======
+1.1. Download the Repository from https://github.com/sadha57/SMD1
+>>>>>>> 41f1cb261b861263d1add9c1b193d3371b2b1b13
 
 📁 2. Navigate into the Project Directory
 
@@ -34,6 +43,7 @@ Setting up
 
 📦 4. Install Required Packages
     npm install --force
+<<<<<<< HEAD
     npm install
     --force is used to bypass certain warnings or dependency conflicts. It is optional and should be used with care.
 
@@ -70,3 +80,41 @@ This React project delivers a simulated Ship Maintenance Dashboard with key feat
 
 
 
+=======
+
+    
+    npm install
+    --force is used to bypass certain warnings or dependency conflicts. It is optional and should be used with care.
+
+🔍 5. Fix Vulnerabilities (Optional)
+    npm audit fix
+    
+▶️ 6. Start the Development Server:
+npm start
+
+
+    npm start
+    
+    The app will launch at http://localhost:3000
+    Npm begins
+
+
+Usage for this project:
+You must log in using specific credentials for three different roles on the homepage.
+For the admin:
+     email address: admin@entnt.com;
+     password: admin123
+For the Engineer 
+     email address : engineer@entnt.com, 
+     password : engine123.
+For the inspector
+     Email:inspector@entnt.com, 
+     password is inspect123.
+ Depending on their roles, everyone has restricted access.
+ For example, an administrator can create jobs, update jobs, remove jobs, and create ships, as well as perform all operations on the site; 
+ an inspector can view only available ships and their status aslso IMO number,name,flag no,status and he can view ,edit and delete the ships based on data
+ an engineer can view jobs; and an administrator can perform all operations. 
+ Meanwhile, everyone can access the dashboard, which shows the total number of ships, overdue components, jobs in progress, and jobs completed.
+
+This React project delivers a simulated Ship Maintenance Dashboard with key features for managing ships, components, and jobs, all while persisting data locally and offering role-based access.
+>>>>>>> 41f1cb261b861263d1add9c1b193d3371b2b1b13
