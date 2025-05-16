@@ -42,8 +42,10 @@ Setting up
 
 🔍 5. Fix Vulnerabilities (Optional)
     npm audit fix
+    
 ▶️ 6. Start the Development Server:
 npm start
+
 
     npm start
     
