@@ -1,4 +1,5 @@
- Objective
+ Objective:
+ 
 A front-end-only React application, the Ship Maintenance Dashboard replicates an entire ship maintenance system. Role-based access (Admin, Inspector, Engineer) and user authentication are included, and users can oversee ships, their parts, and maintenance tasks. In-app notifications are triggered by actions, and jobs are shown in a calendar view. Key statistics are displayed on a KPI dashboard, and all data is kept in localStorage. The application works flawlessly on all devices. 
 
 Core Features:
@@ -22,7 +23,7 @@ Tech Stack Tool Objective
 
 Installation:
 Setting up
-1.1. Download the Repository
+1.1. Download the Repository from https://github.com/sadha57/SMD1
 
 📁 2. Navigate into the Project Directory
 
