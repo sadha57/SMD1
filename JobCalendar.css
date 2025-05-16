@@ -1,0 +1,10 @@
+.job-calendar-container {
+  padding: 20px;
+}
+
+.selected-jobs {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
