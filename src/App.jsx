@@ -5,7 +5,6 @@ import { useAuth } from './contexts/AuthContext';
 import { NotificationProvider } from './contexts/NotificationContext';
 import { ShipsProvider } from './contexts/ShipsContext';
 import { JobsProvider } from './contexts/JobsContext';
-import { HashRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import Navbar from './pages/NavBar';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
