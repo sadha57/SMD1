@@ -1,7 +1,7 @@
 import React from 'react';
 import 'remixicon/fonts/remixicon.css';
 import { HashRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
+
 import { useAuth } from './contexts/AuthContext';
 import { NotificationProvider } from './contexts/NotificationContext';
 import { ShipsProvider } from './contexts/ShipsContext';
